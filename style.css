@@ -17,9 +17,14 @@ body {
     height:90vh;
     background-image: url(./img/jumbo-bg.png);
     background-repeat: no-repeat;
+    background-size: cover;
     color: var(--testo)
 }
 
+#play-limits {
+    margin-top:30px;
+}
+
 .b-rad {
-    border-radius: 50px;
+    border-radius: 45px;
 }
