@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --sfondo: rgb(31, 30, 30);
+    --testo:white;
+}
+
+body {
+    background-color: white;
+}
+
+#jumbo {
+    height:90vh;
+    background-image: url(./img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    color: var(--testo)
+}
+
+.b-rad {
+    border-radius: 50px;
+}
