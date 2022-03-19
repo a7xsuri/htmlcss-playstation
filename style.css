@@ -13,12 +13,19 @@ body {
     background-color: white;
 }
 
-#jumbo {
+#jumbo, #jumbo-2 {
     height:90vh;
-    background-image: url(./img/jumbo-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     color: var(--testo)
+}
+
+#jumbo {
+    background-image: url(./img/jumbo-bg.png);
+}
+
+#jumbo-2 {
+    background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
 }
 
 #play-limits {
@@ -27,4 +34,37 @@ body {
 
 .b-rad {
     border-radius: 45px;
+}
+
+.b-rad-25{
+    border-radius: 25px;
+}
+
+@media screen and (min-width:0) and (max-width:576px){
+ #jumbo {
+     background-position: center;
+ }   
+ #jumbo-2{
+     /* /linear-gradient perché rispetto a quella dello screen dove non si legge niente con questo mettendo un pò di scuro si riesce a leggere anche se devo ripetere l'url */
+    background: linear-gradient(rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.5)), url(./img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+ }
+}
+
+@media screen and (min-width:576px) and (max-width:768px){
+ #jumbo {
+     background-position: center;
+ }   
+ #jumbo-2{
+     /* /linear-gradient perché rispetto a quella dello screen dove non si legge niente con questo mettendo un pò di scuro si riesce a leggere anche se devo ripetere l'url */
+    background: linear-gradient(rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.5)), url(./img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+ }
+}
+
+@media screen and (min-width:768px) and (max-width:992px){
+ #jumbo {
+     background-position: center;
+ }   
+ 
 }
