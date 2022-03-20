@@ -27,7 +27,7 @@ body {
     background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
 }
 
-#play-limits {
+#play-limits, #play-plus, #sales, #now, #media, footer {
     margin-top:30px;
 }
 
@@ -41,21 +41,33 @@ body {
 
 #play-plus {
     background-color: rgb(185, 185, 185);
-    margin-top: 30px;
 }
 
 #play-plus a {
     background-color: rgb(231, 231, 231);
 }
 
-#sales {
-    margin-top: 30px;
-}
-
 #now {
     color: var(--testo);
     background-color: rgb(4, 4, 66);
-    margin-top: 30px;
+}
+
+footer {
+    color: var(--testo);
+    background-color: blue;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: var(--testo);
+}
+
+p img {
+    width: 3%;
 }
 
 @media screen and (min-width:0) and (max-width:576px){
